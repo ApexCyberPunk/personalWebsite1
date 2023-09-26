@@ -1,10 +1,14 @@
 import React from 'react'
+import Projects from './components/Projects.js'
+import Card from './components/Card.js'
 
 const App = () => {
   return (
-    <div>
-      Here we go
-    </div>
+    <>
+    <Card title={"hello world"} description={"something"}/>
+  
+    </>
+  
   )
 }
 
